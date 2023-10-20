@@ -1,0 +1,18 @@
+1 - Front = Fabricio, Douglas, Maurilo
+1.1 - Pagina inicial
+1.2 - Layout Calendario
+1.3 - Login
+1.4 - Registro
+
+
+3 - Usuarios = Pedro H., Jeferson
+3.1 - Banco de Dados com arrays id, nome, senha, email
+3.2 - Cadastro
+3.3 - Login de Usuarios
+3.4 - Atualizar Usuarios
+3.5 - Logout 
+3.6 - Rotas de Usuarios
+
+
+4 - Integração com Api GoogleCalendar = Pedro Augusto de Miranda Maciel
+4.1 Ativação de Api
