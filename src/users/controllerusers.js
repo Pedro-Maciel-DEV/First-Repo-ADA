@@ -19,9 +19,8 @@ button.addEventListener('click',function(e){
     e.preventDefault()
     if(name.value.trim()=="" || email.value.trim()=="" || password.value.trim()==""){
         alert("dados invalidos ")
-    }
-    creatUser(name.value,email.value,password.value)
-    console.log(userdata)
+    }else{creatUser(name.value,email.value,password.value)
+        console.log(userdata)}
 })
 
 

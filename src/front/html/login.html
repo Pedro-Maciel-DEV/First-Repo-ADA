@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="\src\front\images\calendar-icon.png">
         <link rel="stylesheet" href="\src\front\css\style.css">
+        <link rel="stylesheet" href="\src\front\css\cadastro.style.css">
         <title>Agenda Pessoal</title>
     </head>
     <body>
@@ -23,7 +24,20 @@
                 <div class="coluna-50-1">
                     <img src="\src\front\images\check-list.png" alt="check-list" class="image-content">
                 </div>
-                <p class="coluna-50-2">conteúdo 2</p>
+                <form class="coluna-50-1">
+                    <fieldset>
+                        <p class="title-content">Faça login</p>
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input id="email" required type="email">
+                        </div>
+                        <div class="input">
+                            <label for="password">Senha</label>
+                            <input id="password" required  type="password">
+                        </div>
+                        <button id="button">Login</button>
+                    </fieldset>
+                </form>
             </section>
         </div>
 
