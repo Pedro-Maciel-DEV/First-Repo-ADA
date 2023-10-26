@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Inclusive+Sans&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html ::-webkit-scrollbar {
+    width: 5px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #A6F750;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #181C23;
+}
+
+body {
+    font-size: 20px;
+    font-family: "Golos Text", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    background-color: #181C23;
+}
+
+.header {
+    background-color: #181C23;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    font-family: "Golos Text", sans-serif;
+}
+
+.logoHeader {
+    width: 250px;
+    height: auto;
+}
+
+.buttonHeader {
+    display: flex;
+    gap: 20px;
+}
+
+.buttonNav {
+    color: #A6F750;
+    border: 2px solid transparent;
+    background-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 4px;
+    font-family: "Golos Text", sans-serif;
+}
+
+.buttonNav:hover {
+    border-bottom: 2px solid #A6F750;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+
+}
+.wrapper{
+    height:70vh;
+}
+
+.coluna-50-1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna-50-2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.image-content {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+#activity-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+
+.atividades {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#atividades-list {
+    list-style: none;
+    padding: 0;
+}
+
+#atividades-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    min-height: 40px;
+    background-color: #A6F750;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+.textFooter {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    color: #000000;
+    font-size: 13px;
+    font-family: "Golos Text";
+}
+
+.buttonRegister {
+    background-color: #A6F750;
+    color: #181C23; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Golos Text", sans-serif;
+}
+
+.buttonRegister:hover {
+    background-color: #565E6A; 
+    color: #A6F750; 
+}
