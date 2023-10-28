@@ -15,6 +15,7 @@ function creatUser(name,email,password){
     userdata.push(user)
     localStorage.setItem('users',JSON.stringify(userdata))
     alert("Cadastro realizado")
+    window.location.href='../html/registro.html'
 }
 
 function validateUser(email){

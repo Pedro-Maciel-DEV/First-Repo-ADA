@@ -25,7 +25,7 @@ html ::-webkit-scrollbar {
     flex-direction: column;
 }
 
-/*MANIPULANDO O HEADER*/
+
 .header{
     width: 100%;
     background-color: #181C23;
@@ -65,7 +65,7 @@ html ::-webkit-scrollbar {
     border-bottom: 2px solid #A6F750;
 }
 
-/*MANIPULANDO CONTEÚDO PRINCIPAL*/
+
 .content{
     display: flex;
     flex-grow: 1;
@@ -122,7 +122,7 @@ html ::-webkit-scrollbar {
     width: 650px;
 }
 
-/*MANIPULANDO O FOOTER*/
+
 .footer{
     position: relative;
     bottom: 0px;

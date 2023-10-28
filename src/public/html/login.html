@@ -3,48 +3,42 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="\src\front\images\calendar-icon.png">
-        <link rel="stylesheet" href="\src\front\css\style.css">
-        <link rel="stylesheet" href="\src\front\css\cadastro.style.css">
+        <link rel="icon" href="/images/calendar-icon.png">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/cadastro.style.css">
         <title>Agenda Pessoal</title>
     </head>
     <body>
         <div class="conteiner">
             <header class="header">
-                <img src="\src\front\images\calendar-header.png" alt="logo-header" class="logoHeader">
+                <img src="images/calendar-header.png" alt="logo-header" class="logoHeader">
                 <div class="buttonHeader">
-                    <a href="./index.html"><button class="buttonNav" >Início</button></a>
-                    <a href="./login.html"><button class="buttonNav">Login</button></a>
+                    <a href="/"><button class="buttonNav" >Início</button></a>
+                    <a href="/cadastro"><button class="buttonNav">Registro</button></a>
                </div>
             </header>
         </div>
-
         <div>
             <section class="content">
                 <div class="coluna-50-1">
-                    <img src="\src\front\images\check-list.png" alt="check-list" class="image-content">
+                    <img src="/images/check-list.png" alt="check-list" class="image-content">
                 </div>
                 <form class="coluna-50-1">
                     <fieldset>
-                        <p class="title-content">Faça o seu registro</p>
-                        <div class="input">
-                            <label for="name">Nome</label>
-                            <input id="name" required type="text">
-                        </div>
+                        <p class="title-content">Faça login</p>
                         <div class="input">
                             <label for="email">Email</label>
                             <input id="email" required type="email">
                         </div>
                         <div class="input">
-                            <label for="senha">Senha</label>
+                            <label for="password">Senha</label>
                             <input id="password" required  type="password">
                         </div>
-                        <button id="button">Registrar</button>
+                        <button id="button">Login</button>
                     </fieldset>
                 </form>
             </section>
         </div>
-
         <div>
             <footer class="footer">
                 <p class="textFooter">
@@ -52,6 +46,6 @@
                 </p>
             </footer>
         </div>
-        <script type="module" src="../../users/controllerusers.js"></script>
+        <script type="module" src="../../users/login.js"></script>
     </body>
 </html>
